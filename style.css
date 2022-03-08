@@ -14,6 +14,8 @@ header .content {
   display: flex;
   align-items: center;
   padding: 1.875rem; 
+      justify-content: space-between;
+
 }
 .icon{
    display: flex;
@@ -76,7 +78,7 @@ header .mobile {
 
 .child {
   width:60%;
-   display: flex;
+  display: flex;
   flex-direction: column;
   padding: 32px 24px;
   align-items: center;
@@ -85,10 +87,12 @@ header .mobile {
 
 .child2 {
   width:40%;
-   display: flex;
+  display: flex;
   flex-direction: column;
   padding: 32px 24px;
   align-items: center;
+  justify-content: space-around;
+
 }
 .img-fluid{
   width:100%;
@@ -123,6 +127,8 @@ h4{
 	padding:8px 8px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #303d3b;
+    width:40%;
+
 }
 .myButton:hover {
 	background-color:#323b3b;
@@ -159,6 +165,7 @@ h4{
   flex-direction: column;
   padding: 32px 24px;
   align-items: center;
+  
 }
 
 
@@ -171,12 +178,24 @@ h4{
 
 }
 
+.son3 {
+  width:100%;
+   display: flex;
+  flex-direction: row;
+  padding: 32px 24px;
+  align-items: center;
+    background-color: #dfdddd;
+
+
+}
+
 .img-fluid1{
   width: 35%;
   height: auto;
     padding: 16px 16px;
 
 }
+/* guy reading  */
 
 .container{
   display: flex;
@@ -237,27 +256,45 @@ h4{
 .parents1{
   width:40%;
    display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
 }
  
+.daughter1{
+   display: flex;
+  flex-direction: row;
+  padding: 16px 16px;
+
+}
+
+
+ 
 .daughter{
    display: flex;
-  flex-direction: column;
-  
-  
+  flex-direction: row;
+  background-color: #dfdddd;
+
 }
-}
+
+
 .img-fluid3{
   height: auto;
- width:100%;
+ width:35%;
+  padding: 16px 16px;
+
 }
 
 text1{
-      display: flex;
+  display: flex;
   background-color: #ffffff;
     flex-direction: row;
-    justify-content: center;
    width:100%;
+  padding: 16px 16px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
 
 }
